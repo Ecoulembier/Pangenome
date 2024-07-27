@@ -1,0 +1,6 @@
+steps:
+- uses: actions/download-artifact@v4
+with:
+    name: BandageNG-win-6b1802d.zip
+    path: D:\a\BandageNG\BandageNG/build/BandageNG*.zip
+    if-no-files-found: warn
